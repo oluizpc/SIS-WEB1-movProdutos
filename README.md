@@ -85,7 +85,7 @@ Projeto base: [SIS-WEB1-2025-2](https://github.com/alyssonnaves/SIS-WEB1-2025-2)
 - Calcular saldo sempre a partir das movimentações (não editar `saldo` diretamente).  
 - Impedir saldo negativo (ou permitir via configuração documentada).  
 - Usar `response_model` em todas as rotas e mensagens de erro objetivas.  
-- No SQLite, garantir `PRAGMA foreign_keys=ON` na conexão.
+- No SQLite, garantir `PRAGMA foreign_keys=ON` na conexão.  (Utilizei o postgres localmente)
 
 ---
 
