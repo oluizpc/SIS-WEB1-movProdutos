@@ -92,6 +92,12 @@ Projeto base: [SIS-WEB1-2025-2](https://github.com/alyssonnaves/SIS-WEB1-2025-2)
 ## Como executar a aplicação
 
 1. Criar um ambiente virtual:
+`python3 -m venv venv`
+`source venv/bin/activate`
 
-```bash
-python -m venv venv
+3. Instalar os requirements.txt
+`pip install -r requirements.txt`
+
+4. Iniciar uvicorn
+`uvicorn app.main:app --reload`
+Certifique se o arquivo (main.py) esteja dentro da pasta app igual ao meu projeto.
